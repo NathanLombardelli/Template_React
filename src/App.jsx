@@ -1,12 +1,21 @@
 import './style.css'
 import {Title} from "./assets/Title.jsx";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Home} from "./pages/Home.jsx";
+import {Contact} from "./pages/Contact.jsx";
 function App() {
 
   return (
-    <>
-        <Title text={"Hello World"}/>
-    </>
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/home" element={<Home/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
+      </Routes>
+    </BrowserRouter>
+
+
   )
 }
 

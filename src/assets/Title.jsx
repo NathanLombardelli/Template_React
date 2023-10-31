@@ -1,10 +1,10 @@
 
-export const Title = (props) => {
+export const Title = ({text}) => {
 
     return (
 
         // eslint-disable-next-line react/prop-types
-        <h1>{props.text}</h1>
+        <h1>{text}</h1>
 
     );
 
