@@ -1,19 +1,10 @@
-# Title
-
-## Date(s)
-
-? -> ?
+# React Template
 
 ## Description
 
-Projet réalisé dans le cadre de la formation BeCode
+Template pour la création de projets React (Vite,Scss,Router).
 
 ## Team
 
 Nathan Lombardelli
 
-## Link
-
-liens vers la [page](url)
-
-## Library
